@@ -109,6 +109,7 @@ class ComposerStaticInitf93a9ba3ea40d9a3871d8e401570a3c0
         ),
         'B' => 
         array (
+            'BootstrapUI\\' => 12,
             'Bake\\' => 5,
         ),
         'A' => 
@@ -302,6 +303,10 @@ class ComposerStaticInitf93a9ba3ea40d9a3871d8e401570a3c0
         'CakePHP\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp-codesniffer/CakePHP',
+        ),
+        'BootstrapUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofcake/bootstrap-ui/src',
         ),
         'Bake\\' => 
         array (

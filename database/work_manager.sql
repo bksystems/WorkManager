@@ -119,7 +119,7 @@ CREATE TABLE `type_organizations` (
   `modfied` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
-INSERT INTO `organization_types` (`id`, `type`, `description`, `enabled`, `created`, `modfied`) VALUES
+INSERT INTO `type_organizations` (`id`, `type`, `description`, `enabled`, `created`, `modfied`) VALUES
 (1, 'Organización Principal', 'Organización Principal', 1, '2018-11-26 21:25:52', '2018-11-26 21:25:52');
 -- --------------------------------------------------------
 
